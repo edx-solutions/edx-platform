@@ -9,9 +9,10 @@ from django.utils.html import escape
 from lazy import lazy
 
 from lms.djangoapps.grades.models import BlockRecord, PersistentSubsectionGrade
-from lms.djangoapps.grades.scores import get_score, possibly_scored, compute_percent
+from lms.djangoapps.grades.scores import get_score, possibly_scored
 from xmodule import block_metadata_utils, graders
 from xmodule.graders import AggregatedScore, ShowCorrectness
+
 
 log = getLogger(__name__)
 
@@ -156,7 +157,10 @@ class NonZeroSubsectionGrade(SubsectionGradeBase):
 
     @property
     def percent_graded(self):
-        return compute_percent(self.graded_total.earned, self.graded_total.possible)
+        if self.graded_total.possible > 0:
+            return self.graded_total.earned / self.graded_total.possible
+        else:
+            return 0.0
 
     @staticmethod
     def _compute_block_score(

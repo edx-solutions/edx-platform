@@ -13,7 +13,6 @@ from xmodule import block_metadata_utils
 from .config import assume_zero_if_absent
 from .subsection_grade import ZeroSubsectionGrade
 from .subsection_grade_factory import SubsectionGradeFactory
-from .scores import compute_percent
 
 
 class CourseGradeBase(object):
@@ -109,9 +108,9 @@ class CourseGradeBase(object):
                 problem_scores.update(subsection_grade.problem_scores)
         return problem_scores
 
-    def chapter_percentage(self, chapter_key):
+    def score_for_chapter(self, chapter_key):
         """
-        Returns the rounded aggregate weighted percentage for the given chapter.
+        Returns the aggregate weighted score for the given chapter.
         Raises:
             KeyError if the chapter is not found.
         """
@@ -120,7 +119,7 @@ class CourseGradeBase(object):
         for section in chapter_grade['sections']:
             earned += section.graded_total.earned
             possible += section.graded_total.possible
-        return compute_percent(earned, possible)
+        return earned, possible
 
     def score_for_module(self, location):
         """
