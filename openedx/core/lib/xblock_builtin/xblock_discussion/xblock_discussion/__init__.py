@@ -155,6 +155,9 @@ class DiscussionXBlock(XBlock, StudioEditableXBlockMixin, XmlParserMixin):
         """
         Adds URLs for JS and CSS resources that this XBlock depends on to `fragment`.
         """
+        # Add js translations catalog
+        fragment.add_javascript_url(staticfiles_storage.url(self.get_translation_content()))
+
         # Head dependencies
         for vendor_js_file in self.vendor_js_dependencies():
             fragment.add_resource_url(staticfiles_storage.url(vendor_js_file), "application/javascript", "head")
@@ -165,9 +168,6 @@ class DiscussionXBlock(XBlock, StudioEditableXBlockMixin, XmlParserMixin):
         # Body dependencies
         for js_file in self.js_dependencies():
             fragment.add_javascript_url(staticfiles_storage.url(js_file))
-
-        # Add js translations catalog
-        fragment.add_javascript_url(staticfiles_storage.url(self.get_translation_content()))
 
     def has_permission(self, permission):
         """

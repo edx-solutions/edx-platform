@@ -27342,3 +27342,16 @@ msgid ""
 msgstr ""
 "Una nueva revisión ha sido creada: Fusión entre la revisión #%(r1)d y la "
 "revisión #%(r2)d"
+
+#: users/views.py:778
+#, python-brace-format
+msgid "User '{username}' already exists"
+msgstr "El usuario '{username}' ya existe."
+
+#: users/views.py:824
+#, python-brace-format
+msgid ""
+"You are re-using a password that you have used recently. You must have {0} "
+"distinct password(s) before reusing a previous password."
+msgstr "Elija una contraseña que no haya usado recientemente. Para volver a usar "
+"una contraseña anterior, debe haber cambiado de contraseña al menos {0} veces."

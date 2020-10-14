@@ -20,7 +20,6 @@
   django.catalog = django.catalog || {};
   
   var newcatalog = {
-    " menu to see a list of all topics.": " \uba54\ub274\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubaa8\ub4e0 \uc8fc\uc81c\uc758 \ubaa9\ub85d\uc744 \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4.", 
     "%(comments_count)s %(span_sr_open)scomments %(span_close)s": "%(comments_count)s\uac1c %(span_sr_open)s\ub313\uae00 %(span_close)s", 
     "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s unread comments)%(span_close)s": "%(comments_count)s\uac1c %(span_sr_open)s\ub313\uae00(%(unread_comments_count)s\uac1c \uc77d\uc9c0 \uc54a\uc740 \ub313\uae00)%(span_close)s", 
     "%(num_questions)s question": [
@@ -96,6 +95,7 @@
     "Available %s": "\uc774\uc6a9 \uac00\ub2a5\ud55c %s", 
     "Blockquote": "\ube14\ub85d \uc778\uc6a9", 
     "Blockquote (Ctrl+Q)": "\ube14\ub85d\uc778\uc6a9 (Ctrl+Q)", 
+    "Body can't be empty": "\ubcf8\ubb38\uc740 \ube44\uc6cc\ub458 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.", 
     "Bold (Ctrl+B)": "\uc9c4\ud558\uac8c (Ctrl+B)", 
     "Bulleted List (Ctrl+U)": "\uae00\uba38\ub9ac\ud45c (Ctrl+U)", 
     "Cancel": "\ucde8\uc18c", 
@@ -422,6 +422,7 @@
     "This vote could not be processed. Refresh the page and try again.": "\uc774 \ud22c\ud45c\ub97c \ucc98\ub9ac\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \ud398\uc774\uc9c0\ub97c \uc0c8\ub85c\uace0\uce68\ud55c \ub2e4\uc74c \ub2e4\uc2dc \uc2dc\ub3c4\ud574 \ubcf4\uc2ed\uc2dc\uc624.", 
     "Time Sent": "\ubcf4\ub0b8 \uc2dc\uac04", 
     "Time Sent:": "\ubcf4\ub0b8 \uc2dc\uac04:", 
+    "Title can't be empty": "\uc81c\ubaa9\uc740 \ube44\uc6cc\ub458 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.", 
     "Today": "\uc624\ub298", 
     "Toggle Notifications Setting": "\uc54c\ub9bc \uc124\uc815 \uc804\ud658", 
     "Tomorrow": "\ub0b4\uc77c", 
@@ -511,6 +512,7 @@
     "about an hour": "\uc57d \ud55c \uc2dc\uac04 \uc815\ub3c4", 
     "anonymous": "\uc775\uba85", 
     "answered question": "\ub2f5\ubcc0\uc774 \uc788\ub294 \uc9c8\ubb38", 
+    "by": "\uc791\uc131\uc790", 
     "bytes": "bytes", 
     "discussion": "\ud1a0\ub860", 
     "discussion posted": "\ud1a0\ub860\uc774 \uac8c\uc2dc\ub428", 
@@ -531,6 +533,7 @@
     "less than a minute": "\uc77c\ubd84 \uc774\ub0b4", 
     "marked as answer %(time_ago)s": "%(time_ago)s\uc5d0 \ub2f5\ubcc0\uc73c\ub85c \ud45c\uc2dc\ub428", 
     "marked as answer %(time_ago)s by %(user)s": "%(time_ago)s\uc5d0 %(user)s\uc774(\uac00) \ub2f5\ubcc0\uc73c\ub85c \ud45c\uc2dc\ud568", 
+    "menu to see a list of all topics.": " \uba54\ub274\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubaa8\ub4e0 \uc8fc\uc81c\uc758 \ubaa9\ub85d\uc744 \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4.", 
     "name": "\uc774\ub984", 
     "one letter Friday\u0004F": "\uae08", 
     "one letter Monday\u0004M": "\uc6d4", 

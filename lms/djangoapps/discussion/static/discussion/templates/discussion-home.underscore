@@ -11,7 +11,7 @@
           <h4><%- gettext("find discussions") %></h4>
           <p><%- gettext("Use the") %>
             <span color='brand-color'><%- gettext("All Topics") %></span>
-            <%- gettext(" menu to see a list of all topics.") %></p>
+            <%- gettext("menu to see a list of all topics.") %></p>
           <p><%- gettext("Search and filter all posts to find specific topics or posts.") %></p>
           <hr>
           <h4><%- gettext("engage with posts") %></h4>
