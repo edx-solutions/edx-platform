@@ -5,7 +5,7 @@
 -e git+https://github.com/edx-solutions/xblock-image-explorer.git@v1.2#egg=xblock-image-explorer==1.2
 -e git+https://github.com/edx-solutions/xblock-drag-and-drop.git@92ee2055a16899090a073e1df81e35d5293ad767#egg=xblock-drag-and-drop
 # FIXME: temp hash, until (https://github.com/edx-solutions/xblock-drag-and-drop-v2/pull/207 is merged into `master`)
--e git+https://github.com/edx-solutions/xblock-drag-and-drop-v2.git@262435c49c49dfacdcca3ab57f227d21982b456c#egg=xblock-drag-and-drop-v2==2.2.9
+-e git+https://github.com/edx-solutions/xblock-drag-and-drop-v2.git@0a7290362c8e7f75be058cd14a5f726847f4428f#egg=xblock-drag-and-drop-v2==2.2.15
 # This is required for A2E courses that were created with the temporary (xblock-drag-and-drop-v2-new) DnDv2 branch to continue to work.
 # FIXME: bump version to 2.1.6 when https://github.com/edx-solutions/xblock-drag-and-drop-v2/pull/154 merged and tagged
 -e git+https://github.com/open-craft/xblock-drag-and-drop-v2.git@82c9dc5e16d10793e8b79e60661e1a78893fce25#egg=xblock-drag-and-drop-v2-new
@@ -13,14 +13,14 @@
 git+https://github.com/edx-solutions/xblock-group-project.git@0.1.3#egg=xblock-group-project==0.1.3
 -e git+https://github.com/edx-solutions/xblock-adventure.git@0.2#egg=xblock-adventure==0.2
 -e git+https://github.com/open-craft/xblock-poll.git@v1.10.1#egg=xblock-poll==1.10.1
--e git+https://github.com/msaqib52/problem-builder.git@970a03b77826c8216c26c78d50b8fb6dfaadc8bf#egg=xblock-problem-builder==3.5.2
+-e git+https://github.com/open-craft/problem-builder.git@v3.5.7#egg=xblock-problem-builder==3.5.7
 -e git+https://github.com/OfficeDev/xblock-officemix.git@86238f5968a08db005717dbddc346808f1ed3716#egg=xblock-officemix
 -e git+https://github.com/open-craft/xblock-chat.git@v0.2.8#egg=xblock-chat==0.2.8
--e git+https://github.com/open-craft/xblock-eoc-journal.git@v0.7.2#egg=xblock-eoc-journal==0.7.2
+-e git+https://github.com/open-craft/xblock-eoc-journal.git@v0.9.1#egg=xblock-eoc-journal==0.9.1
 -e git+https://github.com/mckinseyacademy/xblock-scorm.git@v2.2#egg=xblock-scorm==2.2
 -e git+https://github.com/mckinseyacademy/xblock-diagnosticfeedback.git@v0.2.5#egg=xblock-diagnostic-feedback==0.2.5
 -e git+https://github.com/open-craft/xblock-group-project-v2.git@0.8.1#egg=xblock-group-project-v2==0.8.1
--e git+https://github.com/open-craft/xblock-virtualreality.git@v0.1.3#egg=xblock-virtualreality==0.1.3
+-e git+https://github.com/open-craft/xblock-virtualreality.git@v0.1.5#egg=xblock-virtualreality==0.1.5
 -e git+https://github.com/edx/edx-notifications.git@2.0.0#egg=edx-notifications==2.0.0
 
 git+https://github.com/edx-solutions/gradebook-edx-platform-extensions.git@2.0.2#egg=gradebook-edx-platform-extensions==2.0.2

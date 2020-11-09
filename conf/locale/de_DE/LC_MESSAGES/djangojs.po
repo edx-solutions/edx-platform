@@ -7107,6 +7107,14 @@ msgid "unanswered question"
 msgstr "unbeantwortete Frage"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "discussion posted"
+msgstr "Diskussion wurde vor"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "question posted"
+msgstr "Frage wurde vor"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-show.underscore
 msgid "Pinned"
 msgstr "Festgeheftet"
@@ -7180,6 +7188,10 @@ msgstr "Einen Kommentar hinzufügen"
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
 msgstr "Diskussion wurde vor %(time_ago)s eröffnet durch  %(author)s"
+
+#: wiki/templates/wiki/includes/revision_info.html
+msgid "by"
+msgstr "durch"
 
 #: common/static/common/templates/discussion/thread-show.underscore
 #, python-format

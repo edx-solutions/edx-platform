@@ -438,6 +438,10 @@ msgid "discussion posted"
 msgstr "opublikowana dyskusja"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "question posted"
+msgstr "opublikowane pytanie"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-show.underscore
 #: common/templates/js/discussion/thread-show.underscore
 #: test_root/staticfiles/common/templates/discussion/thread-list-item.underscore
@@ -571,6 +575,10 @@ msgstr "Dodaj komentarz"
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
 msgstr "opublikowana dyskusja %(time_ago)s przez %(author)s"
+
+#: wiki/templates/wiki/includes/revision_info.html
+msgid "by"
+msgstr "przez"
 
 #: common/static/common/templates/discussion/thread-show.underscore
 #: test_root/staticfiles/common/templates/discussion/thread-show.underscore
@@ -1346,3 +1354,15 @@ msgstr "tytuł nie może być pusty"
 #: discussions/views/new_post_view_spec.js
 msgid "Body can't be empty"
 msgstr "treść nie może być pusta"
+
+#: common/static/common/templates/discussion/new-post-visibility.underscore
+msgid "This post will be visible to everyone."
+msgstr "Ten post będzie widoczny dla wszystkich"
+
+
+#: common/static/js/src/jquery.timeago.locale.js
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dzień"
+msgstr[1] "%d dni"

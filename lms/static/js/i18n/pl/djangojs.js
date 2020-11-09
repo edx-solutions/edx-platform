@@ -22,6 +22,10 @@
       "Zaznaczono %(sel)s z %(cnt)s", 
       "Zaznaczono %(sel)s z %(cnt)s"
     ], 
+    "%d day": [
+      "%d dzie\u0144", 
+      "%d dni"
+    ], 
     "%d minute": [
       "%d minute"
     ], 
@@ -242,6 +246,7 @@
     "This post could not be unpinned. Refresh the page and try again.": "Nie uda\u0142o si\u0119 odpi\u0105\u0107 postu. Od\u015bwie\u017c stron\u0119 i spr\u00f3buj ponownie.", 
     "This post is visible only to %(group_name)s.": "Ten post jest widoczny tylko dla %(group_name)s.", 
     "This post is visible to everyone.": "Ten post jest widoczny dla wszystkich.", 
+    "This post will be visible to everyone.": "Ten post b\u0119dzie widoczny dla wszystkich", 
     "This problem could not be saved.": "Nie uda\u0142o si\u0119 zapisa\u0107 \u0107wiczenia.", 
     "This problem has already been released. Any changes will apply only to future assessments.": "To \u0107wiczenie zosta\u0142o ju\u017c opublikowane. Jakiekolwiek zmiany b\u0119d\u0105 obowi\u0105zywa\u0107 tylko dla przysz\u0142ych ocen.", 
     "This response could not be marked as an answer. Refresh the page and try again.": "Nie mo\u017cna oznaczy\u0107 tej odpowiedzi. Od\u015bwie\u017c stron\u0119 i spr\u00f3buj ponownie", 
@@ -322,6 +327,7 @@
     "about an hour": "oko\u0142o godziny", 
     "anonymous": "u\u017cytkownik anonimowy", 
     "answered question": "pytanie posiadaj\u0105ce odpowied\u017a", 
+    "by": "przez", 
     "discussion": "dyskusja", 
     "discussion posted": "opublikowana dyskusja", 
     "discussion posted %(time_ago)s by %(author)s": "opublikowana dyskusja %(time_ago)s przez %(author)s", 
@@ -347,6 +353,7 @@
     "post anonymously": "opublikuj anonimowo", 
     "post anonymously to classmates": "opublikuj anonimowo dla koleg\u00f3w z kursu", 
     "posted %(time_ago)s by %(author)s": "opublikowano %(time_ago)s przez %(author)s", 
+    "question posted": "opublikowane pytanie", 
     "question posted %(time_ago)s by %(author)s": "opublikowane pytanie %(time_ago)s przez %(author)s", 
     "there is currently {numVotes} vote": [
       "aktualna liczba punkt\u00f3w to: {numVotes}", 

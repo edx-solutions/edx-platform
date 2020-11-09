@@ -2351,7 +2351,7 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "No posts matched your query."
-msgstr ""
+msgstr "لا توجد منشورات تطابق استعلامك."
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Show posts by {username}."
@@ -6972,7 +6972,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/new-post-visibility.underscore
 msgid "This post will be visible to everyone."
-msgstr ""
+msgstr "سيكون هذا المنشور مرئيًا للجميع"
 
 #: common/static/common/templates/discussion/new-post.underscore
 msgid "Add a Post"
@@ -7071,6 +7071,14 @@ msgid "unanswered question"
 msgstr "سؤال غير مُجاب عليه"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "discussion posted"
+msgstr "مناقشة نشرت"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "question posted"
+msgstr "نُشر السؤال قبل"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-show.underscore
 msgid "Pinned"
 msgstr "مُثَبَّت"
@@ -7147,7 +7155,11 @@ msgstr "إضافة تعليق "
 #: common/static/common/templates/discussion/thread-show.underscore
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
-msgstr "مناقشة نشرت %(time_ago)s by %(author)s"
+msgstr "مناقشة نشرت %(time_ago)s بواسطة %(author)s"
+
+#: wiki/templates/wiki/includes/revision_info.html
+msgid "by"
+msgstr "بواسطة"
 
 #: common/static/common/templates/discussion/thread-show.underscore
 #, python-format

@@ -17009,7 +17009,7 @@ msgstr "Resultados:"
 
 #: lms/templates/discussion/_discussion_inline.html
 msgid "Topic:"
-msgstr ""
+msgstr "Tópico:"
 
 #: lms/templates/discussion/_discussion_inline.html
 msgid "Show Discussion"

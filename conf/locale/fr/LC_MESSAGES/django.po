@@ -26379,7 +26379,7 @@ msgstr ""
 
 #: wiki/templates/wiki/includes/revision_info.html
 msgid "by"
-msgstr ""
+msgstr "par"
 
 #: wiki/templates/wiki/includes/revision_info.html
 msgid "restored"

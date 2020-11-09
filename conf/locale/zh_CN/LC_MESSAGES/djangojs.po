@@ -6906,6 +6906,14 @@ msgid "unanswered question"
 msgstr "待回复的问题"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "discussion posted"
+msgstr "发布此讨论帖"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "question posted"
+msgstr "发布此问题"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-show.underscore
 msgid "Pinned"
 msgstr "已固定"
@@ -6978,6 +6986,10 @@ msgstr "添加评论"
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
 msgstr "由%(author)s于%(time_ago)s发布此讨论帖"
+
+#: wiki/templates/wiki/includes/revision_info.html
+msgid "by"
+msgstr "由"
 
 #: common/static/common/templates/discussion/thread-show.underscore
 #, python-format

@@ -8,7 +8,7 @@
         <h3 class="sub-heading"><%- gettext("How to use discussions") %></h3>
 
         <div class="discussion-wrapper">
-          <h4><%- gettext("find discussions") %></h4>
+          <h4><%- gettext("Find discussions") %></h4>
           <p><%- gettext("Use the") %>
             <span color='brand-color'><%- gettext("All Topics") %></span>
             <%- gettext("menu to see a list of all topics.") %></p>

@@ -206,6 +206,10 @@ msgstr "Nie udało się zaktualizować zdjęcia profilowego"
 msgid "invalid_password"
 msgstr "invalid_password"
 
+#: wiki/templates/wiki/includes/revision_info.html
+msgid "by"
+msgstr "przez"
+
 #: edx_solutions_api_integration/users/views.py:796
 #, python-brace-format
 msgid ""

@@ -2369,7 +2369,7 @@ msgstr ""
 #, javascript-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
+msgstr[0] "%d日"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a month"
@@ -6698,6 +6698,14 @@ msgstr "回答済の質問"
 #: common/static/common/templates/discussion/thread-list-item.underscore
 msgid "unanswered question"
 msgstr "未回答の質問"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "discussion posted"
+msgstr "前に投稿したディスカッション"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "question posted"
+msgstr "前に投稿した質問"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-show.underscore
