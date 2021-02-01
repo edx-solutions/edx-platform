@@ -467,15 +467,6 @@ class CertificateGetTests(SharedModuleStoreTestCase):
             certs_api.get_certificate_for_user(self.student_no_cert.username, self.web_cert_course.id)
         )
 
-    def test_no_certificates_for_user(self):
-        """
-        Test the case when there are no certificates for a user.
-        """
-        self.assertEqual(
-            certs_api.get_certificates_for_user(self.student_no_cert.username),
-            []
-        )
-
     @patch.dict(settings.FEATURES, {'CERTIFICATES_HTML_VIEW': True})
     def test_get_web_certificate_url(self):
         """
